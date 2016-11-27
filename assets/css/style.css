@@ -1,0 +1,141 @@
+/* Custom Stylesheet */
+
+body {
+	background-color: #eaeaea;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 1;
+}
+
+.brand {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 3;
+}
+
+.brand>div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.brand-logo {
+	height: 64px;
+	width: 64px;
+}
+
+.brand-name {
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+.content {
+	background-color: #ffffff;
+	height: 100vh;
+}
+
+.container-custom {
+	width: 100vw;
+}
+
+.navbar-custom {
+	text-align: right;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	width: 5vw;
+	z-index: 5;
+}
+
+#navbar-toggle {
+	font-size: 2em;
+	top: 50%;
+	right: 20px;
+}
+
+#navbar-toggle:hover {
+	color: #cccccc;
+	font-size: 2em;
+	top: 50%;
+	right: 20px;
+}
+
+.content-footer {
+	z-index: 2;
+}
+
+.footer-bg {
+	position: fixed;
+	background-color: #2D184F;
+	height: 100%;
+	width: 82px;
+	top: 0;
+	left: 0;
+}
+
+.footer-tx {
+	position: fixed;
+	color: #FFFFFF;
+	top: 50%;
+	left: -20px;
+}
+
+.rotate {
+
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.navbar-shade {
+	display: none;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100vh;
+	width: 100vw;
+	z-index: 4;
+}
+
+.navbar-menu {
+	display: none;
+	position: fixed;
+	right: 25vw;
+	top: 40vh;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.navbar-menu li {
+	font-size: 3.5em;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+.navbar-menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.navbar-menu a:hover {
+	color: #8681F3;
+	text-decoration: none;
+}
+
+.navbar-menu .activated {
+	color: #8681F3;
+	pointer-events: none;
+	cursor: default;
+}
